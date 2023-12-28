@@ -1,6 +1,6 @@
 body {margin:0}
 
-@media screen and (min-width: 1201px) 
+@media only screen and (min-width: 1201px) 
 {
 h2 {font-size:35px;}
 h3 {font-size:30px;}
@@ -45,7 +45,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
 }
 
 
-@media screen and (max-width: 600px) 
+@media only screen and (max-width: 600px) 
 {
 h2 {font-size:4.5vw;}
 h3 {font-size:4vw;}
@@ -92,7 +92,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
 .zdj {display:none;}
 }
 /*MENU*/
-@media screen and (max-width: 600px)
+@media only screen and (max-width: 600px)
 {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -100,7 +100,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
     display: block;
   }
 }
-@media screen and (max-width: 600px)
+@media only screen and (max-width: 600px)
 {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -115,7 +115,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1200px) 
+@media only screen and (min-width: 601px) and (max-width: 1200px) 
 {
 h2 {font-size:35px; text-align:left;}
 h3 {font-size:30px;}
@@ -158,7 +158,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
 .zdj {border-color:#DE4F02;}
 }
 /*MENU*/
-@media screen and (min-width: 601px) and (max-width: 1200px)
+@media only screen and (min-width: 601px) and (max-width: 1200px)
 {
   .topnav a:not(:nth-child(-n + 6)) {display: none;}
   .topnav a.icon {
@@ -166,7 +166,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
     display: block;
   }
 }
-@media screen and (min-width: 601px) and (max-width: 1200px)
+@media only screen and (min-width: 601px) and (max-width: 1200px)
 {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
