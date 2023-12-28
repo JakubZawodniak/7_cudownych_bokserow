@@ -89,6 +89,7 @@ a:hover.nazwa {color:black; text-decoration:none; cursor:default;}
 
 .img1 {display: flex; justify-content: center; align-items: center; border-style:solid; border-color:#0033FF; border-radius:15px; width:50vw;}
 .img2 {display:none;}
+.zdj {display:none;}
 }
 /*MENU*/
 @media screen and (max-width: 600px)
